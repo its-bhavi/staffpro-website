@@ -156,8 +156,8 @@ export default function Contact() {
           <FadeIn>
             <div className="rounded-2xl overflow-hidden border border-border-light">
               <iframe
-                title="StaffPro Office Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.9777403086475!2d72.8494!3d19.1136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA2JzQ5LjAiTiA3MsKwNTAnNTcuOCJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                title="NextHorizon Staffing Office Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.123456789!2d-106.6195!3d35.0975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z0LM1wrAwNSc1MS4wIk4gMTA2wrAzNycxMC4yIlc!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}

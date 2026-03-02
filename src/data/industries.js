@@ -32,7 +32,7 @@ export const industries = [
     ],
   },
   {
-    icon: 'IndianRupee',
+    icon: 'DollarSign',
     name: 'Finance & Accounting',
     roles: '60+ Active Roles',
     desc: 'The finance sector requires professionals with exceptional analytical skills and regulatory knowledge. We connect organizations with certified accountants, financial analysts, auditors, and senior finance leaders who drive fiscal responsibility and strategic growth.',

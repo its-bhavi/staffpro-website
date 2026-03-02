@@ -31,12 +31,12 @@ const values = [
 ];
 
 const milestones = [
-  { year: '2014', title: 'Founded StaffPro', description: 'Started with a 5-person team and a vision to transform staffing in India. Our first office opened in Mumbai with a focus on IT staffing.' },
+  { year: '2014', title: 'Founded NextHorizon Staffing', description: 'Started with a 5-person team and a vision to transform staffing in New Mexico. Our first office opened in Albuquerque with a focus on IT staffing.' },
   { year: '2016', title: '100th Client Milestone', description: 'Reached our 100th client partnership, expanding into healthcare and finance sectors. Team grew to 25 professionals.' },
-  { year: '2018', title: 'Expanded to 4 Cities', description: 'Opened offices in Delhi, Bangalore, and Pune. Launched our contract staffing and payroll management divisions.' },
+  { year: '2018', title: 'Expanded Across the Southwest', description: 'Extended our reach across New Mexico, Arizona, and Texas. Launched our contract staffing and payroll management divisions.' },
   { year: '2020', title: 'Digital Recruitment Platform', description: 'Launched our proprietary digital recruitment platform, enabling faster candidate matching and seamless client communication.' },
   { year: '2022', title: '10,000th Placement', description: 'Celebrated our 10,000th successful placement. Introduced executive search and RPO solutions for enterprise clients.' },
-  { year: '2024', title: '500+ Companies Served', description: 'Now serving 500+ companies across India with a team of 100+ recruitment professionals. Recognized as a top staffing partner.' },
+  { year: '2024', title: '500+ Companies Served', description: 'Now serving 500+ companies across the United States with a team of 100+ recruitment professionals. Recognized as a top staffing partner.' },
 ];
 
 export default function About() {
@@ -68,7 +68,7 @@ export default function About() {
               className="font-display font-extrabold text-white mb-4"
               style={{ fontSize: 'clamp(36px, 5vw, 60px)' }}
             >
-              About StaffPro
+              About NextHorizon Staffing
             </h1>
           </FadeIn>
           <FadeIn delay={0.2}>
@@ -93,19 +93,19 @@ export default function About() {
                   className="font-display font-bold text-text-primary mb-6"
                   style={{ fontSize: 'clamp(28px, 3.5vw, 40px)' }}
                 >
-                  Building India's Most Trusted Staffing Partner
+                  Building America's Most Trusted Staffing Partner
                 </h2>
               </FadeIn>
               <FadeIn delay={0.2}>
                 <div className="space-y-4 font-body text-text-secondary leading-relaxed">
                   <p>
-                    StaffPro was founded in 2014 with a simple yet powerful mission: to connect the right talent with the right opportunity. What started as a small team of five passionate recruiters in Mumbai has grown into one of India's most trusted staffing and recruitment companies.
+                    NextHorizon Staffing was founded in 2014 with a simple yet powerful mission: to connect the right talent with the right opportunity. What started as a small team of five passionate recruiters in Albuquerque has grown into one of America's most trusted staffing and recruitment companies.
                   </p>
                   <p>
                     Over the past decade, we have placed more than 15,000 professionals across 500+ companies, spanning industries from IT and healthcare to manufacturing and finance. Our success is built on a foundation of deep industry knowledge, a consultative approach, and an unwavering commitment to quality.
                   </p>
                   <p>
-                    Today, StaffPro operates from four major cities across India, with a team of 100+ recruitment professionals who bring together technology-driven sourcing and human expertise to deliver staffing solutions that truly make a difference.
+                    Today, NextHorizon Staffing operates across multiple states, with a team of 100+ recruitment professionals who bring together technology-driven sourcing and human expertise to deliver staffing solutions that truly make a difference.
                   </p>
                 </div>
               </FadeIn>
@@ -118,7 +118,7 @@ export default function About() {
                     12+
                   </p>
                   <p className="font-body text-xl font-bold text-text-primary mb-2">Years of Excellence</p>
-                  <p className="font-body text-text-muted">Transforming how India hires since 2014</p>
+                  <p className="font-body text-text-muted">Transforming how America hires since 2014</p>
                 </div>
                 <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary-sky/10 rounded-full blur-2xl" />
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary-bright/10 rounded-full blur-2xl" />
@@ -150,7 +150,7 @@ export default function About() {
               <div className="bg-white border border-border-light rounded-2xl p-8">
                 <h3 className="font-display font-bold text-text-primary text-xl mb-4">Our Vision</h3>
                 <p className="font-body text-text-secondary leading-relaxed">
-                  To be India's most trusted staffing partner — known for quality, speed, and integrity. We envision a future where every company has access to the talent they need, and every professional has a pathway to meaningful employment.
+                  To be America's most trusted staffing partner — known for quality, speed, and integrity. We envision a future where every company has access to the talent they need, and every professional has a pathway to meaningful employment.
                 </p>
               </div>
             </FadeIn>
@@ -190,7 +190,7 @@ export default function About() {
           <SectionHeading
             label="Our Journey"
             heading="A Decade of Growth & Impact"
-            subtitle="Key milestones that have shaped StaffPro into the company it is today."
+            subtitle="Key milestones that have shaped NextHorizon Staffing into the company it is today."
           />
           <div className="relative max-w-3xl mx-auto">
             <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-border-light md:-translate-x-px" />
@@ -226,7 +226,7 @@ export default function About() {
 
       <CTABanner
         heading="Want to Know More?"
-        subtitle="We would love to tell you more about how StaffPro can help your business grow."
+        subtitle="We would love to tell you more about how NextHorizon Staffing can help your business grow."
         primaryText="Contact Us"
         primaryTo="/contact"
       />

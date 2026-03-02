@@ -15,7 +15,7 @@ export default function ClientLogos() {
       <div className="container-max px-6">
         <FadeIn>
           <p className="font-body text-sm text-text-light text-center mb-8 uppercase tracking-wider font-medium">
-            Trusted by leading companies across India
+            Trusted by leading companies across the US
           </p>
         </FadeIn>
         <FadeIn delay={0.1}>

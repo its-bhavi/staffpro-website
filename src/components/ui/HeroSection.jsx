@@ -66,7 +66,7 @@ export default function HeroSection() {
         >
           <span className="w-2 h-2 bg-success rounded-full animate-pulse" />
           <span className="font-body text-sm text-white/90 font-medium">
-            Trusted by 500+ Companies Across India
+            Trusted by 500+ Companies Across the US
           </span>
         </motion.div>
 

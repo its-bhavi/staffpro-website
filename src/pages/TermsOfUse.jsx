@@ -53,14 +53,14 @@ export default function TermsOfUse() {
                 <div>
                   <h2 className="font-display font-bold text-text-primary text-2xl mb-4">1. Acceptance of Terms</h2>
                   <p className="font-body text-text-secondary leading-relaxed">
-                    By accessing and using the StaffPro website (staffpro.in) and our services, you accept and agree to be bound by these Terms of Use. If you do not agree to these terms, please refrain from using our website and services. These terms apply to all visitors, users, and others who access or use our services.
+                    By accessing and using the NextHorizon Staffing website (nexthorizonstaffing.com) and our services, you accept and agree to be bound by these Terms of Use. If you do not agree to these terms, please refrain from using our website and services. These terms apply to all visitors, users, and others who access or use our services.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="font-display font-bold text-text-primary text-2xl mb-4">2. Description of Services</h2>
                   <p className="font-body text-text-secondary leading-relaxed">
-                    StaffPro provides staffing and recruitment services, including but not limited to temporary staffing, permanent recruitment, contract staffing, executive search, payroll services, and recruitment process outsourcing (RPO). Our website serves as an informational resource and a point of contact for prospective clients and job seekers.
+                    NextHorizon Staffing provides staffing and recruitment services, including but not limited to temporary staffing, permanent recruitment, contract staffing, executive search, payroll services, and recruitment process outsourcing (RPO). Our website serves as an informational resource and a point of contact for prospective clients and job seekers.
                   </p>
                 </div>
 
@@ -82,28 +82,28 @@ export default function TermsOfUse() {
                 <div>
                   <h2 className="font-display font-bold text-text-primary text-2xl mb-4">4. Intellectual Property</h2>
                   <p className="font-body text-text-secondary leading-relaxed">
-                    All content on this website, including but not limited to text, graphics, logos, images, and software, is the property of StaffPro or its content suppliers and is protected by Indian and international copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any content without our express written consent.
+                    All content on this website, including but not limited to text, graphics, logos, images, and software, is the property of NextHorizon Staffing LLC or its content suppliers and is protected by United States and international copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any content without our express written consent.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="font-display font-bold text-text-primary text-2xl mb-4">5. Job Listings and Recruitment</h2>
                   <p className="font-body text-text-secondary leading-relaxed">
-                    While we strive to ensure accuracy, we do not guarantee that all job listings or opportunities presented through our services are current, accurate, or available. StaffPro acts as an intermediary between employers and candidates. We do not guarantee employment or placement, and the final hiring decision rests with the employer.
+                    While we strive to ensure accuracy, we do not guarantee that all job listings or opportunities presented through our services are current, accurate, or available. NextHorizon Staffing acts as an intermediary between employers and candidates. We do not guarantee employment or placement, and the final hiring decision rests with the employer.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="font-display font-bold text-text-primary text-2xl mb-4">6. Limitation of Liability</h2>
                   <p className="font-body text-text-secondary leading-relaxed">
-                    To the fullest extent permitted by law, StaffPro shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from your use of our website or services.
+                    To the fullest extent permitted by law, NextHorizon Staffing LLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from your use of our website or services.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="font-display font-bold text-text-primary text-2xl mb-4">7. Disclaimer of Warranties</h2>
                   <p className="font-body text-text-secondary leading-relaxed">
-                    Our website and services are provided on an "as is" and "as available" basis. StaffPro makes no representations or warranties of any kind, express or implied, regarding the operation of the website, the accuracy of information, or the suitability of services for any particular purpose.
+                    Our website and services are provided on an "as is" and "as available" basis. NextHorizon Staffing makes no representations or warranties of any kind, express or implied, regarding the operation of the website, the accuracy of information, or the suitability of services for any particular purpose.
                   </p>
                 </div>
 
@@ -121,14 +121,14 @@ export default function TermsOfUse() {
                 <div>
                   <h2 className="font-display font-bold text-text-primary text-2xl mb-4">9. Third-Party Links</h2>
                   <p className="font-body text-text-secondary leading-relaxed">
-                    Our website may contain links to third-party websites or services that are not owned or controlled by StaffPro. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites. You access third-party sites at your own risk.
+                    Our website may contain links to third-party websites or services that are not owned or controlled by NextHorizon Staffing. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites. You access third-party sites at your own risk.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="font-display font-bold text-text-primary text-2xl mb-4">10. Governing Law</h2>
                   <p className="font-body text-text-secondary leading-relaxed">
-                    These Terms of Use shall be governed by and construed in accordance with the laws of India. Any disputes arising from these terms or your use of the website shall be subject to the exclusive jurisdiction of the courts in Mumbai, Maharashtra, India.
+                    These Terms of Use shall be governed by and construed in accordance with the laws of the State of New Mexico, United States. Any disputes arising from these terms or your use of the website shall be subject to the exclusive jurisdiction of the courts in Bernalillo County, New Mexico, United States.
                   </p>
                 </div>
 

@@ -9,7 +9,7 @@ import {
   CheckCircle,
   Monitor,
   Heart,
-  IndianRupee,
+  DollarSign,
   Factory,
   ShoppingBag,
   Wrench,
@@ -31,7 +31,7 @@ const howWeHelp = [
   {
     icon: Briefcase,
     title: 'Access to Top Employers',
-    description: 'We partner with 500+ companies across India, giving you access to exclusive opportunities that are not posted on public job boards.',
+    description: 'We partner with 500+ companies across the United States, giving you access to exclusive opportunities that are not posted on public job boards.',
   },
   {
     icon: GraduationCap,
@@ -57,7 +57,7 @@ const careerTips = [
 const openingsSectors = [
   { icon: Monitor, name: 'IT & Technology', count: '120+' },
   { icon: Heart, name: 'Healthcare', count: '85+' },
-  { icon: IndianRupee, name: 'Finance', count: '60+' },
+  { icon: DollarSign, name: 'Finance', count: '60+' },
   { icon: Factory, name: 'Manufacturing', count: '90+' },
   { icon: ShoppingBag, name: 'Retail & FMCG', count: '70+' },
   { icon: Wrench, name: 'Engineering', count: '55+' },
@@ -238,7 +238,7 @@ export default function ForJobSeekers() {
 
       <CTABanner
         heading="Ready for Your Next Career Move?"
-        subtitle="Join thousands of professionals who found their dream jobs through StaffPro."
+        subtitle="Join thousands of professionals who found their dream jobs through NextHorizon Staffing."
         primaryText="Submit Your CV"
         primaryTo="/contact"
         showPhone={false}

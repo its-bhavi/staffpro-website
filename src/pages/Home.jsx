@@ -50,7 +50,7 @@ export default function Home() {
           <SectionHeading
             label="Industries We Serve"
             heading="Deep Expertise Across Key Sectors"
-            subtitle="Specialized staffing solutions for the industries that power India's economy."
+            subtitle="Specialized staffing solutions for the industries that power America's economy."
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {industries.map((industry, index) => (
@@ -67,7 +67,7 @@ export default function Home() {
           <SectionHeading
             label="Testimonials"
             heading="What Our Clients Say"
-            subtitle="Hear from the companies and leaders who trust StaffPro with their most important asset — their people."
+            subtitle="Hear from the companies and leaders who trust NextHorizon Staffing with their most important asset — their people."
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {testimonials.map((testimonial, index) => (

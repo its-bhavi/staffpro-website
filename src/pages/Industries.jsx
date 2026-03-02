@@ -100,7 +100,7 @@ export default function Industries() {
           </FadeIn>
           <FadeIn delay={0.2}>
             <p className="font-body text-lg text-white/70 max-w-xl mx-auto">
-              Specialized staffing expertise across India's key economic sectors
+              Specialized staffing expertise across America's key economic sectors
             </p>
           </FadeIn>
         </div>

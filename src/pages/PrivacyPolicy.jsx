@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
                 <div>
                   <h2 className="font-display font-bold text-text-primary text-2xl mb-4">1. Introduction</h2>
                   <p className="font-body text-text-secondary leading-relaxed mb-4">
-                    StaffPro ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you visit our website staffpro.in, use our services, or interact with us in any way.
+                    NextHorizon Staffing LLC ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you visit our website nexthorizonstaffing.com, use our services, or interact with us in any way.
                   </p>
                   <p className="font-body text-text-secondary leading-relaxed">
                     By accessing or using our website and services, you agree to the collection and use of information in accordance with this policy. If you do not agree with our practices, please do not use our website or services.
@@ -100,7 +100,7 @@ export default function PrivacyPolicy() {
                     <li>With client companies for the purpose of job placement (with your consent)</li>
                     <li>With service providers who assist us in operating our website and conducting our business</li>
                     <li>When required by law, regulation, or legal process</li>
-                    <li>To protect the rights, safety, or property of StaffPro, our clients, or others</li>
+                    <li>To protect the rights, safety, or property of NextHorizon Staffing, our clients, or others</li>
                     <li>In connection with a merger, acquisition, or sale of assets</li>
                   </ul>
                   <p className="font-body text-text-secondary leading-relaxed mt-4">

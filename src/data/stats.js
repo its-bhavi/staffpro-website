@@ -3,7 +3,7 @@ export const stats = [
     value: 12,
     suffix: '+',
     label: 'Years of Excellence',
-    description: 'Over a decade of trusted staffing expertise across India',
+    description: 'Over a decade of trusted staffing expertise across the US',
   },
   {
     value: 500,

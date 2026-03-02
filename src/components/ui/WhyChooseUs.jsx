@@ -21,7 +21,7 @@ const metrics = [
   {
     value: '92%',
     title: 'First-Year Retention',
-    description: 'Candidates placed by StaffPro have significantly higher first-year retention rates.',
+    description: 'Candidates placed by NextHorizon Staffing have significantly higher first-year retention rates.',
   },
 ];
 

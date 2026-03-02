@@ -51,7 +51,7 @@ export default function Navbar() {
         aria-label="Main navigation"
       >
         <div className="max-w-container mx-auto px-6 flex items-center justify-between h-[72px]">
-          <Link to="/" className="flex items-center gap-2.5 z-50" aria-label="StaffPro Home">
+          <Link to="/" className="flex items-center gap-2.5 z-50" aria-label="NextHorizon Staffing Home">
             <div
               className={`w-[38px] h-[38px] rounded-[10px] flex items-center justify-center font-display font-extrabold text-lg transition-all duration-300 ${
                 showDark
@@ -59,14 +59,14 @@ export default function Navbar() {
                   : 'bg-white/15 text-white'
               }`}
             >
-              S
+              N
             </div>
             <span
-              className={`font-body text-xl font-bold transition-colors duration-300 ${
+              className={`font-body text-lg font-bold transition-colors duration-300 whitespace-nowrap ${
                 showDark ? 'text-text-primary' : 'text-white'
               }`}
             >
-              StaffPro
+              NextHorizon Staffing
             </span>
           </Link>
 

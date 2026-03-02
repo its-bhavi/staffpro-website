@@ -19,10 +19,10 @@ export default function Footer() {
           <div>
             <Link to="/" className="flex items-center gap-2.5 mb-4">
               <div className="w-[38px] h-[38px] rounded-[10px] bg-gradient-to-br from-primary to-primary-light flex items-center justify-center font-display font-extrabold text-lg text-white">
-                S
+                N
               </div>
-              <span className="font-body text-xl font-bold text-white">
-                StaffPro
+              <span className="font-body text-lg font-bold text-white">
+                NextHorizon Staffing
               </span>
             </Link>
             <p className="font-body text-sm leading-relaxed mb-6 text-[#A0AEC0]">
@@ -67,7 +67,7 @@ export default function Footer() {
 
         <div className="border-t border-[#1E293B] pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-body text-xs text-[#64748B]">
-            &copy; Copyright StaffPro {currentYear}. All rights reserved.
+            &copy; Copyright NextHorizon Staffing LLC {currentYear}. All rights reserved.
           </p>
           <p className="font-body text-xs text-[#64748B] hover:text-[#A0AEC0] transition-colors duration-200 cursor-pointer">
             Do Not Sell My Personal Information
