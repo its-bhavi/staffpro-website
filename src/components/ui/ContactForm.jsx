@@ -112,11 +112,11 @@ export default function ContactForm() {
             <input
               id="phone"
               type="tel"
-              placeholder="+91 98765 43210"
+              placeholder="+1 (505) 555-0199"
               className={`${inputStyles} ${errors.phone ? 'border-error focus:ring-error/20' : ''}`}
               {...register('phone', {
                 pattern: {
-                  value: /^[+]?[\d\s-]{10,15}$/,
+                  value: /^[+]?[\d\s\-()]{10,18}$/,
                   message: 'Please enter a valid phone number',
                 },
               })}

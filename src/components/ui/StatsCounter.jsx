@@ -8,7 +8,7 @@ function StatItem({ stat, index }) {
 
   const formatNumber = (num) => {
     if (num >= 1000) {
-      return num.toLocaleString('en-IN');
+      return num.toLocaleString('en-US');
     }
     return num;
   };

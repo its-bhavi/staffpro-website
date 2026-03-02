@@ -62,11 +62,12 @@ export default function Navbar() {
               N
             </div>
             <span
-              className={`font-body text-lg font-bold transition-colors duration-300 whitespace-nowrap ${
+              className={`font-body text-[15px] xs:text-base sm:text-lg font-bold transition-colors duration-300 whitespace-nowrap ${
                 showDark ? 'text-text-primary' : 'text-white'
               }`}
             >
-              NextHorizon Staffing
+              <span className="hidden xs:inline">NextHorizon Staffing</span>
+              <span className="xs:hidden">NextHorizon</span>
             </span>
           </Link>
 

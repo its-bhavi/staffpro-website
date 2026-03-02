@@ -34,7 +34,7 @@ export default function Footer() {
                 className="flex items-center gap-2.5 font-body text-sm text-[#CBD5E1] hover:text-primary-sky transition-colors duration-200"
               >
                 <Mail className="w-4 h-4 text-[#A0AEC0] flex-shrink-0" />
-                {companyInfo.email}
+                <span className="break-all">{companyInfo.email}</span>
               </a>
               <a
                 href={`tel:${companyInfo.phone.replace(/\s/g, '')}`}
