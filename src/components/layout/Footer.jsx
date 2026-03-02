@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Linkedin, Twitter, Instagram } from 'lucide-react';
+import { Linkedin, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 import { footerLinks } from '@/data/footerLinks';
 import { companyInfo } from '@/data/companyInfo';
 
@@ -25,9 +25,31 @@ export default function Footer() {
                 NextHorizon Staffing
               </span>
             </Link>
-            <p className="font-body text-sm leading-relaxed mb-6 text-[#A0AEC0]">
+            <p className="font-body text-sm leading-relaxed mb-5 text-[#A0AEC0]">
               {companyInfo.description}
             </p>
+            <div className="space-y-3 mb-6">
+              <a
+                href={`mailto:${companyInfo.email}`}
+                className="flex items-center gap-2.5 font-body text-sm text-[#CBD5E1] hover:text-primary-sky transition-colors duration-200"
+              >
+                <Mail className="w-4 h-4 text-[#A0AEC0] flex-shrink-0" />
+                {companyInfo.email}
+              </a>
+              <a
+                href={`tel:${companyInfo.phone.replace(/\s/g, '')}`}
+                className="flex items-center gap-2.5 font-body text-sm text-[#CBD5E1] hover:text-primary-sky transition-colors duration-200"
+              >
+                <Phone className="w-4 h-4 text-[#A0AEC0] flex-shrink-0" />
+                {companyInfo.phone}
+              </a>
+              <div className="flex items-start gap-2.5">
+                <MapPin className="w-4 h-4 text-[#A0AEC0] flex-shrink-0 mt-0.5" />
+                <span className="font-body text-sm text-[#CBD5E1]">
+                  {companyInfo.address}
+                </span>
+              </div>
+            </div>
             <div className="flex items-center gap-3">
               {socialIcons.map((social) => (
                 <a
