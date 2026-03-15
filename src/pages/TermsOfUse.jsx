@@ -146,7 +146,9 @@ export default function TermsOfUse() {
                   </p>
                   <div className="bg-surface-alt rounded-xl p-6 font-body text-text-secondary">
                     <p className="font-semibold text-text-primary mb-2">{companyInfo.name}</p>
-                    <p>{companyInfo.address}</p>
+                    <p>{companyInfo.addressLines.map((line, i) => (
+                      <span key={i}>{line}{i < companyInfo.addressLines.length - 1 && <br />}</span>
+                    ))}</p>
                     <p>Email: <a href={`mailto:${companyInfo.email}`} className="text-primary-bright hover:underline">{companyInfo.email}</a></p>
                     <p>Phone: <a href={`tel:${companyInfo.phone.replace(/\s/g, '')}`} className="text-primary-bright hover:underline">{companyInfo.phone}</a></p>
                   </div>

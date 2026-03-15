@@ -4,7 +4,13 @@ export const companyInfo = {
   tagline: 'Trusted Staffing & Recruitment Partner',
   phone: '+1 (510) 296-3340',
   email: 'Nirdesh@nexthorizonstaffing.com',
-  address: '1209 Mountain Rd PL NE STE R, Albuquerque, NM 87110',
+  addressLines: [
+    'NextHorizon Staffing LLC',
+    'Nirdesh Kumar Sole MBR',
+    '1209 Mountain Rd PL NE STE R',
+    'Albuquerque, NM 87110',
+  ],
+  address: 'NextHorizon Staffing LLC, Nirdesh Kumar Sole MBR, 1209 Mountain Rd PL NE STE R, Albuquerque, NM 87110',
   hours: 'Mon - Fri: 8:00 AM - 5:00 PM MST',
   founded: 2014,
   socials: {

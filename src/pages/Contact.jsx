@@ -10,7 +10,8 @@ const contactDetails = [
   {
     icon: MapPin,
     label: 'Visit Us',
-    value: companyInfo.address,
+    value: companyInfo.addressLines,
+    multiline: true,
   },
   {
     icon: Phone,
@@ -115,6 +116,12 @@ export default function Contact() {
                             >
                               {detail.value}
                             </a>
+                          ) : detail.multiline ? (
+                            <p className="font-body text-[15px] text-text-muted">
+                              {detail.value.map((line, i) => (
+                                <span key={i}>{line}{i < detail.value.length - 1 && <br />}</span>
+                              ))}
+                            </p>
                           ) : (
                             <p className="font-body text-[15px] text-text-muted">
                               {detail.value}

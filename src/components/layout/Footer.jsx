@@ -46,7 +46,9 @@ export default function Footer() {
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#A0AEC0] flex-shrink-0 mt-0.5" />
                 <span className="font-body text-sm text-[#CBD5E1]">
-                  {companyInfo.address}
+                  {companyInfo.addressLines.map((line, i) => (
+                    <span key={i}>{line}{i < companyInfo.addressLines.length - 1 && <br />}</span>
+                  ))}
                 </span>
               </div>
             </div>
