@@ -157,7 +157,7 @@ export default function Contact() {
             <div className="rounded-2xl overflow-hidden border border-border-light">
               <iframe
                 title="NextHorizon Staffing Office Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.5!2d-106.6196!3d35.0977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87220ba8e3b6e3e3%3A0x0!2s1209+Mountain+Rd+Pl+NE+STE+R%2C+Albuquerque%2C+NM+87110!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.0!2d-106.6218!3d35.0997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87220b872d781e97%3A0x7e3f8e2e5d2c8c0a!2s1209+Mountain+Rd+Pl+NE+%23R%2C+Albuquerque%2C+NM+87110!5e0!3m2!1sen!2sus!4v1710500000000!5m2!1sen!2sus"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}

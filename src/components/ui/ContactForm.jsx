@@ -112,7 +112,7 @@ export default function ContactForm() {
             <input
               id="phone"
               type="tel"
-              placeholder="+1 (505) 555-0199"
+              placeholder="+1 (510) 296-3340"
               className={`${inputStyles} ${errors.phone ? 'border-error focus:ring-error/20' : ''}`}
               {...register('phone', {
                 pattern: {
